@@ -1,72 +1,91 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Vr : Respositorio del Visualizador de Reportes Graficos" />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
 
-    <title>Vr</title>
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>VR by Rubio1</title>
   </head>
 
   <body>
+    <a id="forkme_banner" href="https://github.com/Rubio1/VR">View on GitHub</a>
+    <div class="shell">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Rubio1/VR">View on GitHub</a>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>VR</h1>
+            <h2>Respositorio del Visualizador de Reportes Graficos</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-          <h1 id="project_title">Vr</h1>
-          <h2 id="project_tagline">Respositorio del Visualizador de Reportes Graficos</h2>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/Rubio1/VR/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/Rubio1/VR/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/Rubio1/VR/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/Rubio1/VR/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
         <h3>
-<a name="bienvenidos-a-la-pagina-de-vr" class="anchor" href="#bienvenidos-a-la-pagina-de-vr"><span class="octicon octicon-link"></span></a>Bienvenidos a la pagina de VR.</h3>
+<a name="bienvenidos-a-la-p%C3%A1gina-de-vr" class="anchor" href="#bienvenidos-a-la-p%C3%A1gina-de-vr"><span class="octicon octicon-link"></span></a>Bienvenidos a la página de VR.</h3>
 
-<p>Esta pagina muestra informacion respecto al proyecto en desarrollo llamado Visualizador de Reportes Graficos.</p>
-
-<h3>
-<a name="que-es" class="anchor" href="#que-es"><span class="octicon octicon-link"></span></a>¿Que es?</h3>
-
-<p><strong>Visualizador de Reportes Gráficos</strong> es una aplicación para dispositivos móviles que permite observar informacion extraida de las bases de datos en tiempo real en forma de reportes graficos, mismos que permite la interpretacion de datos para observar analizar el comportamiento y rendimiento de los negocios.</p>
+<p>Esta página muestra información respecto al proyecto en desarrollo llamado Visualizador de Reportes Gráficos.</p>
 
 <h3>
-<a name="para-que-se-creo" class="anchor" href="#para-que-se-creo"><span class="octicon octicon-link"></span></a>¿Para que se creo?</h3>
+<a name="qu%C3%A9-es" class="anchor" href="#qu%C3%A9-es"><span class="octicon octicon-link"></span></a>¿Qué es?</h3>
 
-<p>Para demostrar el amplo alcance que este conjunto de tecnologias pueden llegar a ofrecer par ala visualizacion de reportes, ya que no esta limitado a observar el rendimiento de los negocios, si no, analizar ademas el comportamiento de diversas areas o sectores ya sea publicos o privados donde se requiera realizar algun monitoreo o consulta de datos.</p>
+<p><strong>Visualizador de Reportes Gráficos</strong> es una aplicación para dispositivos móviles que permite observar información extraída de las bases de datos en tiempo real en forma de reportes gráficos, mismos que permite la interpretación de datos para observar analizar el comportamiento y rendimiento de los negocios.</p>
+
+<h3>
+<a name="para-qu%C3%A9-se-cre%C3%B3" class="anchor" href="#para-qu%C3%A9-se-cre%C3%B3"><span class="octicon octicon-link"></span></a>¿Para qué se creó?</h3>
+
+<p>Para demostrar el amplio alcance que este conjunto de tecnologías pueden llegar a ofrecer para la visualización de reportes, ya que no está limitado a observar el rendimiento de los negocios, si no, analizar además el comportamiento de diversas áreas o sectores ya sea públicos o privados donde se requiera realizar algún monitoreo, análisis o consulta de datos.</p>
 
 <h3>
 <a name="objetivo" class="anchor" href="#objetivo"><span class="octicon octicon-link"></span></a>Objetivo</h3>
 
-<p>Poner al alcance de la mano la visualizacion de reportes graficos con informacion en tiempo real, sin iportar la hora ni el lugar donde se requiera hacer una consulta..</p>
+<p>Poner al alcance de la mano la visualización de reportes gráficos con información en tiempo real, sin importar la hora ni el lugar donde se requiera hacer una consulta..</p>
 
 <h3>
 <a name="estrategias" class="anchor" href="#estrategias"><span class="octicon octicon-link"></span></a>Estrategias</h3>
 
-<p>Mediante el uso de dispositivos moviles equipados con Android 2.1 o superior, tecnologias que auxilian el proceso de renderizacion de graficas y conexion a internet para obtener datos.</p>
+<p>Mediante el uso de dispositivos móviles equipados con Android 2.1 o superior, tecnologías que auxilian el proceso de renderización de gráficas y conexión a Internet para obtener datos.</p>
       </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Vr maintained by <a href="https://github.com/Rubio1">Rubio1</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/Rubio1">Rubio1</a> can be found on <a href="https://github.com/Rubio1/VR">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
+
     </div>
 
     
-
   </body>
 </html>
